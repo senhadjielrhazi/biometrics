@@ -1,0 +1,11 @@
+LIBRARY				SWWnd.dll
+
+DESCRIPTION			'Windows Interface Manager'
+
+SECTIONS			
+					.Wnd   READ WRITE SHARED
+
+EXPORTS
+        
+		
+		

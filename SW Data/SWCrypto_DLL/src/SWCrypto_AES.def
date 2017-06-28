@@ -1,0 +1,12 @@
+LIBRARY         SWCrypto.dll
+
+DESCRIPTION     'Cipher Text Manager'
+
+EXPORTS
+        
+		C_Crypto_Encrypt
+		C_Crypto_Decrypt
+		C_Crypto_GenerateKey
+		C_Crypto_MakeKey
+		C_Crypto_Length
+		

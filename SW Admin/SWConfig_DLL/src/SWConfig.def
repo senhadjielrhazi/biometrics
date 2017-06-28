@@ -1,0 +1,14 @@
+LIBRARY         SWConfig.dll
+
+DESCRIPTION     'Administration Manager'
+
+EXPORTS
+        
+		C_Config_StartAdministration	
+		BuildTrustList
+		AddTrustToList
+		EnumTrustedDomains
+		IsDomainController
+		OpenPolicy
+		InitLsaString
+		

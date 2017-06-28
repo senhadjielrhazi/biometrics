@@ -1,0 +1,9 @@
+; SWRegistry.def : Declares the module parameters for the DLL.
+LIBRARY 	 "SWRegistry"
+DESCRIPTION  'SWRegistry Windows Dynamic Link Library'
+EXPORTS
+; Explicit exports can go here
+	C_Registry_GetLastUserDomain @1
+	C_Registry_SetLastUserDomain @2
+	C_Registry_GetAccessOnRun	 @3
+	C_Registry_SetAccessOnRun    @4

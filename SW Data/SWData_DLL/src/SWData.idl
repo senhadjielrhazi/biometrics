@@ -1,0 +1,38 @@
+// SWData.idl : IDL source for SWData.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SWData.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(8AB81E71-CB2F-11D3-8D3B-AC2F34F1FA3C),
+		dual,
+		helpstring("IDLSWData Interface"),
+		pointer_default(unique)
+	]
+	interface IDLSWData : IDispatch
+	{
+	};
+
+[
+	uuid(8AB81E65-CB2F-11D3-8D3B-AC2F34F1FA3C),
+	version(1.0),
+	helpstring("SWData 1.0 Type Library")
+]
+library DLSWDataLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(8AB81E72-CB2F-11D3-8D3B-AC2F34F1FA3C),
+		helpstring("SWData Class")
+	]
+	coclass DLLSWData
+	{
+		[default] interface IDLSWData;
+	};
+};

@@ -1,0 +1,18 @@
+LIBRARY         SWGina
+
+DESCRIPTION     'Secure Workstation Windows NT Logon GUI'
+
+EXPORTS
+        WlxNegotiate
+        WlxInitialize
+        WlxDisplaySASNotice
+        WlxLoggedOutSAS
+        WlxActivateUserShell
+        WlxLoggedOnSAS
+        WlxDisplayLockedNotice
+        WlxWkstaLockedSAS
+        WlxIsLockOk
+        WlxIsLogoffOk
+        WlxLogoff
+        WlxShutdown
+		WlxScreenSaverNotify

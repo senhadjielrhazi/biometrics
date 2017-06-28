@@ -1,0 +1,31 @@
+LIBRARY         SWDsp
+DESCRIPTION     'Secure Workstation Windows NT DSP GUI'
+EXPORTS
+
+		WlxSWReboot
+		WlxIsSWLock
+		WlxIsSWValid
+		WlxSWShutDown
+
+		WlxLogonIdentOn
+		WlxLogonIdentOff
+		
+		WlxDataIdentOn
+		WlxDataIdentOff
+		
+		WlxAccessIdentOn
+		WlxAccessIdentOff
+		WlxAccessUpdateOn
+
+		WlxAdminLockSW
+		WlxAdminUnLock
+		WlxAdminRefresh
+		WlxAdminIdentOn
+		WlxAdminIdentOff
+		WlxAdminUpdateOn
+		WlxAdminEnrollOn
+		WlxAdminEnrollOff
+		WlxAdminEnrollPaint
+		WlxAdminUserOn
+		WlxAdminDbOn
+		

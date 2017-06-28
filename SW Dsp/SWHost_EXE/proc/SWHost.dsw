@@ -1,0 +1,281 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CRC_StaticLib"="..\..\..\..\..\Tests\Crc\CRC_StaticLib\CRC_StaticLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ILV"="..\..\..\..\Com\ILV\ILV.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MORPHO_SDK"="..\..\..\..\..\Sdk\MORPHO_SDK\MORPHO_SDK.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MSO100
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "MSO100"="..\..\..\..\MSO100\MSO100.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SpUsb
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Static_Sprs232
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name CRC_StaticLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ILV
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SWAccess"="..\..\..\SW Access\SWAccess_EXE\proc\SWAccess.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SWCrypto
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWDsp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWRegistry
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWWnd
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SWAdmin"="..\..\..\SW Admin\SWAdmin_EXE\proc\SWAdmin.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SWConfig
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SWConfig"="..\..\..\SW Admin\SWConfig_DLL\proc\SWConfig.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SWCrypto
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWDsp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWRegistry
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SWCrypto"="..\..\..\SW Data\SWCrypto_DLL\proc\SWCrypto.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SWData"="..\..\..\SW Data\SWData_DLL\proc\SWData.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SWCrypto
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWDsp
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SWDsp"="..\..\SWDsp_DLL\proc\SWDsp.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SWGina"="..\..\..\SW Logon\SWGina_DLL\proc\SWGina.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SWConfig
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWCrypto
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWDsp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWRegistry
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SWHost"=".\SWHost.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SWAccess
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWAdmin
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWGina
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SWData
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MORPHO_SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SWRegistry"="..\..\SWRegistry_DLL\proc\SWRegistry.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SWWnd"="..\..\..\SW Access\SWWnd_DLL\proc\SWWnd.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SpUsb"="..\..\..\..\Com\SpUsb\SpUsb.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Static_Sprs232"="..\..\..\..\Com\Sprs232\static_sprs232.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
