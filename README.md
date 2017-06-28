@@ -7,4 +7,4 @@ The application requires the collection of biometrics throughout a distributed h
 This software include a module to allow for quick encryption of biometric-centric data. These composites enable synchronous and asynchronous processing of transactions and data to meet the requirements of a wide variety of use case scenarios. 
 
 
-Defense and Security Biometric Bio-Logon, [Biometric CV Website, O. Senhadji El Rhazi]
+Defense and Security Biometric Bio-Logon, [O. Senhadji El Rhazi](https://cv.archives-ouvertes.fr/senhadjielrhazi)
